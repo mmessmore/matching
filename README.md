@@ -18,6 +18,10 @@ Here's an [example answer key](examples/key.html).
 
 Here's an [example quiz](examples/quiz.html).
 
+I just use bare `tabulate` HTML output and some dumb CSS/JavaScript to make it
+friendlier.  This is ugly "print raw html" out of laziness vs nice templates or
+something.
+
 ## Usage
 
 This uses normal `pipenv` junk to manage dependencies.  So yeah.
@@ -38,3 +42,4 @@ Options:
 I'm also just sticking my kids' data in the data directory.  You can discard
 that.  The definitions really stink to me, but it's what's on the test, so
 whatever.
+
