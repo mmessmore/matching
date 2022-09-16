@@ -12,6 +12,12 @@ Some phrase: Another definition
 It will generate html that you can print with either randomized quizzes or an
 answer key.
 
+## Example Output
+
+Here's an [example answer key](examples/key.html).
+
+Here's an [example quiz](examples/quiz.html).
+
 ## Usage
 
 This uses normal `pipenv` junk to manage dependencies.  So yeah.

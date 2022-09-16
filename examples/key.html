@@ -1,0 +1,38 @@
+<html><head><title>Matching</title>
+<style>
+          td:nth-child(1){
+              width:200px;
+              v-align:top;
+          }
+          h1 {
+              text-align: center;
+          };
+          </style>
+</head><body>
+<h1>Answer Key</h1>
+<table>
+<thead>
+<tr><th>Word        </th><th>Definition                                                                                                                       </th></tr>
+</thead>
+<tbody>
+<tr><td>Adaptations </td><td>A change by which a species becomes better suited to its environment.                                                            </td></tr>
+<tr><td>Biodiversity</td><td>The variety of life in a particular ecosystem.                                                                                   </td></tr>
+<tr><td>Competition </td><td>The interaction that exists when organisms are needing the same resource.                                                        </td></tr>
+<tr><td>Consumers   </td><td>Organisms that eat other organisms and are classified by the organisms they eat for food (herbivore, carnivore, omnivore).       </td></tr>
+<tr><td>Decomposers </td><td>Organisms that break down other organisms and return nutrients to the environment.                                               </td></tr>
+<tr><td>Ecosystem   </td><td>A community of organisms and their abiotic environment.                                                                          </td></tr>
+<tr><td>Population  </td><td>A group of individuals of the same species that live in the same place at the same time.                                         </td></tr>
+<tr><td>Producers   </td><td>Organisms that make their own food by receiving energy directly from the fun (photosynthesis).                                   </td></tr>
+<tr><td>Symbiotic   </td><td>The relationship between organisms in which one depends on the other.  Some examples are mutualism, commensalism, and parasitism.</td></tr>
+<tr><td>Scavengers  </td><td>Organisms that eat organisms that are already dead.                                                                              </td></tr>
+</tbody>
+</table>
+
+          <script>
+          let defs = document.querySelectorAll("td:nth-child(2)");
+          defs.forEach(def => {
+              def.prepend("• ")
+          });
+          </script>
+          
+</body></html>
