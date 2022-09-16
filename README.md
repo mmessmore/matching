@@ -26,3 +26,9 @@ Options:
   -o, --outfile FILENAME
   --help                  Show this message and exit.
 ```
+
+## Unnecessary data
+
+I'm also just sticking my kids' data in the data directory.  You can discard
+that.  The definitions really stink to me, but it's what's on the test, so
+whatever.
